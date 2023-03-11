@@ -1,0 +1,436 @@
+cores{
+color:  #fff
+#f1f3f7
+#f6f6f6
+#a89f9f
+#233032
+#2f86d6;
+font-family:'popins'; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+
+/* TOPO */
+
+
+header{
+    width: 100%;
+    height: 8rem;
+    background-color:#fff;
+    position: fixed;
+    display: flex;
+    box-shadow: 0px 0.5px 5px black;
+    z-index: 10;
+}
+
+.content-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.titulo-logo{
+    display: flex;
+    position: relative;
+    padding: 2rem 2rem 2rem 0;
+    gap: 1rem;
+    width: 25rem;
+}
+
+.titulo-logo img{
+    width: 5.7rem;
+    
+}
+
+.titulo-logo p{
+    position: absolute;
+    top: 5.3rem;
+    left:6.75rem;
+    right: 0;
+    bottom: 0;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.titulo-logo h1{
+    letter-spacing: 0.25px;
+}
+
+
+nav{
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    gap: 2rem;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+}
+
+/*    FIM TOPO */
+
+/*FIM BANNER*/
+
+#banner{
+    background-color: #2f86d6;
+    width: 100%;
+    height: 80vh;
+    z-index: 5;
+    padding-top: 9.5rem;
+    display: flex;
+}
+
+
+.content-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 64rem;
+}
+
+
+.content-left-banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    bottom:0 ;
+    gap: 2rem;
+    max-width: 50%;
+    color: #fff;
+}
+
+.imagem-banner{
+    width: 50%;
+}
+
+.content-left-banner h2{
+    font-size: 1.9rem;
+}
+
+.content-left-banner p {
+    margin-right: 1rem;
+    font-size: 1.05rem;
+}
+
+/*   FIM BANNER */
+
+#anuncio{
+    background-color: #23303E;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 0px -1px 5px black;
+    
+}
+
+.content-anuncio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:1rem;
+    
+}
+
+.content-left-anuncio{
+    color: #fff;
+    width: 60%;
+}
+
+.content-left-anuncio p{
+    padding: 1rem 0;
+}
+
+
+
+.button-anuncio{
+    display: flex;
+    width: 15.313rem;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 1rem;
+}
+
+.button-anuncio a{
+    background-color: #2f86d6;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.5px;
+
+}
+
+.button-anuncio img{
+    padding: 1px 10px 0 5px;
+    width: 30px;
+    margin: 0 auto
+}
+
+/**/
+
+#info{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    box-shadow: 0px -1px 5px white;
+}
+
+.content-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 1rem;
+}
+
+.content-info img{
+    width: 8rem;
+}
+
+.content-info h2{
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    width: 60rem;
+    padding: 60px;
+    font-size: 2rem;
+}
+
+span{
+    color: #2e85d6;
+}
+
+.content-info-1{
+    width: 24rem;
+    text-align: center;
+    padding-top: 9rem;
+    
+}
+
+
+/*  FIM INFO */
+
+#table{
+    background-color:#F1F3F7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px -1px 2px #F1F3F7;
+}
+
+#table h2{
+    text-align: center;
+    padding: 7rem;
+    font-size: 2rem;
+}
+
+.content-table{
+    background-color:#fff;
+    width: 62.5rem;
+    height: 34rem;
+    box-shadow: 0 1px 30px 15px #2e85d6;
+    border-radius: 5px;
+    
+}
+
+table{
+    width: 62.5rem;
+    height: 33.75rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F1F3F7;
+}
+
+thead{
+    background-color: #fff;
+}
+
+table th{
+    height: 15.375rem;
+    width: 15.813rem;
+    position: relative;
+}
+
+
+thead h3{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+}
+
+thead img{
+    top: 5rem;
+    left: 0;
+    right: 0;
+}
+
+thead p{
+    position: absolute;
+    top: 11.5rem;
+    left: 0;
+    right: 0;
+    color: #a89f9f;
+    font-weight: 100;
+    width: 9rem;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+tbody{
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.content-table img{
+    width: 80px;
+}
+
+.back-gray{
+    background-color: #F6F6F6;
+}
+
+
+/*   ANUNCIO 2*/
+
+#anuncio-2{
+    background-color: #2e85d6;
+    display: flex;
+    width: 100%;
+    height: 19vh;
+    box-shadow: 0px -1px 5px #2e85d6;
+    
+}
+
+.content-anuncio-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.content-left-anuncio-2{
+    color: #fff;
+    width: 70%;
+}
+
+.content-left-anuncio-2 h2{
+    padding: 0.2rem 0;
+    font-size: 1.4rem;
+}
+
+
+
+.button-anuncio-2{
+    display: flex;
+    width: 15.313rem;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 1rem;
+}
+
+.button-anuncio-2 a{
+    background-color: #23303E;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.5px;
+}
+
+.button-anuncio-2 img{
+    padding: 1px 10px 0 5px;
+    width: 30px;
+    margin: 0 auto
+}
+
+/*   FIM ANUNCIO 2   */
+
+#rodape{
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px 5px #fff;
+}
+
+.titulo-logo-1{
+    display: flex;
+    position: relative;
+    padding: 2rem 0 2rem 2.5rem;
+    gap: 1rem;
+    width: 25rem;
+}
+.titulo-logo-1 img{
+    width: 5.7rem;
+    
+}
+
+.titulo-logo-1 p{
+    position: absolute;
+    top: 5.3rem;
+    left:9.15rem;
+    right: 0;
+    bottom: 0;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.titulo-logo-1 h1{
+    letter-spacing: 0.25px;
+}
+
+.footer-content{
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+    font-weight: bold;
+
+}
+
+.footer-assign{
+    background-color: #f1f3f7;
+    width: 100%;
+    height: 8vh;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-assign p{
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
